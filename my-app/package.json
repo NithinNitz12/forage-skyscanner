@@ -1,0 +1,36 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
+    "@skyscanner/backpack-react-scripts": "10.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-ssr": "react-scripts start-ssr",
+    "build": "react-scripts build",
+    "build-ssr": "react-scripts build-ssr",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@skyscanner/backpack-web": "^15.1.0",
+    "bpk-mixins": "^36.2.0",
+    "bpk-stylesheets": "^7.2.16",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
