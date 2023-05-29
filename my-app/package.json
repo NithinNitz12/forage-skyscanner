@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.0",
-    "@skyscanner/backpack-react-scripts": "10.4.0"
+    "@skyscanner/backpack-react-scripts": "10.4.0",
+    "bpk-component-button": "^7.1.2",
+    "bpk-component-calendar": "^13.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
